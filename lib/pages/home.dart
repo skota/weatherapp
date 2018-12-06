@@ -17,7 +17,7 @@ Widget _getHeader() {
               fontWeight: FontWeight.bold
               ),),
           Text('cloudy'),
-          new Text('25 \U00B0')
+          new Text('25 \u{00B0} C' )
         ],
       ),
     )
