@@ -85,9 +85,11 @@ Widget dataRow() {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Expanded(
+            flex: 2,
             child: Text('Wednesday')
           ),
           Expanded(
+            flex: 2,
             child: Text('cloudy')
           ),
           Expanded(
